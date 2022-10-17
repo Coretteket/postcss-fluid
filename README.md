@@ -1,4 +1,4 @@
-# [postcss-fluid](https://www.npmjs.com/package/postcss-fluid)
+# [postcss-fluid-type](https://www.npmjs.com/package/postcss-fluid-type)
 
 Fluid css value
 
