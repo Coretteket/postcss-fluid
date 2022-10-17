@@ -9,7 +9,7 @@ Fluid css value
 postcss([
   // (plugins) Sass, Nesting, Imports ...
 
-  require('postcss-fluid')({
+  require('postcss-fluid-type')({
     // Defaults:
     min: '320px', // Min media size
     max: '1200px', // Max media size
