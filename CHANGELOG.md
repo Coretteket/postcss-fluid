@@ -1,3 +1,7 @@
+## 1.5.0 — 17 October 2022
+
+- Rewritten using modern `clamp()` function
+
 ## 1.2.0-1.3.0 — 16 June 2019
 
 - Rewrited media query

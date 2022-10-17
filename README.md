@@ -43,21 +43,7 @@ body {
 
 ```css
 body {
-  padding: 1rem calc(10px + 10 * (100vw - 320px) / 880) 2rem;
-  font-size: calc(16px + 14 * (100vw - 320px) / 880);
-}
-
-@media (max-width: 320px) {
-  body {
-    padding: 1rem 10px 2rem;
-    font-size: 16px;
-  }
-}
-
-@media (min-width: 1200px) {
-  body {
-    padding: 1rem 20px 2rem;
-    font-size: 30px;
-  }
+  padding: 1rem calc(10px, 10px + 10 * (100vw - 320px) / 880, 20px) 2rem;
+  font-size: clamp(16px, 16px + 14 * (100vw - 320px) / 880, 30px);
 }
 ```

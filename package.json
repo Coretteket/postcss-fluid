@@ -1,15 +1,15 @@
 {
-  "name": "postcss-fluid",
+  "name": "postcss-fluid-type",
   "description": "Fluid css value",
-  "version": "1.4.2",
+  "version": "1.5.0",
   "main": "index.bundle.js",
-  "author": "Mikhail Novikov <notiv.nt@gmail.com>",
+  "author": "Quinten Coret <qcoret@gmail.com>",
   "scripts": {
     "test": "jest",
     "test:dev": "jest --watch",
     "build": "terser index.js -o index.bundle.js"
   },
-  "repository": "https://github.com/notiv-nt/postcss-fluid.git",
+  "repository": "https://github.com/coretteket/postcss-fluid.git",
   "license": "MIT",
   "devDependencies": {
     "jest": "^28.1.3",
@@ -22,7 +22,7 @@
   "keywords": [
     "postcss",
     "postcss-plugin",
-    "postcss-fluid",
+    "postcss-fluid-type",
     "fluid typography",
     "responsive"
   ]
